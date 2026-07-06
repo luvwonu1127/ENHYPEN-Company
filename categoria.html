@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Tienda Pro</title>
+    <link rel="stylesheet" href="estilos/categoria.css">
+</head>
+
+<header>
+        <div class="encabezado-bar">
+            <div class="logo-company">
+                <img src="menu/logo7.png" class="company-logo" alt="Logo de la Empresa">
+                <h1 class="company-title">Enhypen | Company</h1>
+            </div>
+
+            <div class="carrito">
+                <div class="cart-icon-box">
+                    🛒 <span id="cart-count">0</span>
+                </div>
+                <div class="profile-user">
+                    <a href="login.html">
+                            <img src="menu/profile.jpg" class="avatar-img" alt="Profile icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <nav class="nav-menu-box">
+            <input type="checkbox" id="menu-trigger">
+            <label for="menu-trigger" class="hamburger-menu">☰ MENÚ</label>
+
+            <ul class="nav-links-list">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="categoria.html">Lightsticks</a></li>
+                <li><a href="categoria2.html">Álbumes</a></li>
+                <li><a href="categoria3.html">Peluches</a></li>
+                <li><a href="contacto.html">Contacto y Servicio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<body>
+    <main>
+
+        <br>
+
+        <!--INTRODUCCION A LA CATEGORIA-->
+         <section class="intro-section">
+            <div class="intro-content">
+                <h2 class="intro-title">¡Nuestros Lightsticks!</h2>
+                <p class="intro-description">Explora nuestra colección de lightsticks oficiales de tus grupos favoritos.<br>
+            </div>
+
+            <div class="intro-actions">
+                <a href="categoria2.html" class="btn-primary">Explorar Álbumes</a>
+                <a href="categoria3.html" class="btn-secondary">Explorar Peluches</a>
+            </div>
+         </section>
+
+         <!-- SECCIÓN DE PRODUCTOS-->
+          <br>
+        <section class="products">
+            <div class="product-card">
+                <h3>ENHYPEN Lightstick</h3>
+                <img src="categoria1/enhypen.webp" alt="ENHYPEN Lightstick" width="200">
+                <p>$95.00</p>
+                <button class="add-btn" data-id="1" data-name="ENHYPEN Lightstick" data-price="95.00">Añadir al carrito</button>
+            </div>
+            
+            <div class="product-card">
+                <h3>TWS Lightstick</h3>
+                <img src="categoria1/tws.webp" alt="TWS Lightstick" width="200">
+                <p>$90.00</p>
+                <button class="add-btn" data-id="2" data-name="TWS Lightstick" data-price="90.00">Añadir al carrito</button> 
+            </div>
+            
+            <div class="product-card">
+                <h3>ATEEZ Lightstick</h3>
+                <img src="categoria1/ateez.webp" alt="ATEEZ Lightstick" width="200">
+                <p>$105.00</p>
+                <button class="add-btn" data-id="3" data-name="ATEEZ Lightstick" data-price="105.00">Añadir al carrito</button> 
+            </div>
+            
+            <div class="product-card">
+                <h3>TXT Lightstick</h3>
+                <img src="categoria1/txt.jpg" alt="TXT Lightstick" width="200">
+                <p>$80.00</p>
+                <button class="add-btn" data-id="4" data-name="TXT Lightstick" data-price="80.00">Añadir al carrito</button> 
+            </div>
+            
+            <div class="product-card">
+                <h3>SVT Lightstick</h3>
+                <img src="categoria1/seventeen.webp" alt="SEVENTEEN Lightstick" width="200">
+                <p>$100.00</p>
+                <button class="add-btn" data-id="5" data-name="SEVENTEEN Lightstick" data-price="100.00">Añadir al carrito</button> 
+            </div>
+            
+            <div class="product-card">
+                <h3>STRAY KIDS Lightstick</h3>
+                <img src="categoria1/skz.jpg" alt="STRAY KIDS Lightstick" width="200">
+                <p>$96.00</p>
+                <button class="add-btn" data-id="6" data-name="STRAY KIDS Lightstick" data-price="96.00">Añadir al carrito</button> 
+            </div>
+            
+            <div class="product-card">
+                <h3>MONSTA X Lightstick</h3>
+                <img src="categoria1/monstax.jpg" alt="MONSTA X Lightstick" width="200">
+                <p>$80.00</p>
+                <button class="add-btn" data-id="7" data-name="MONSTA X Lightstick" data-price="80.00">Añadir al carrito</button> 
+            </div>
+            
+            <div class="product-card">
+                <h3>LE SSERAFIM Lightstick</h3>
+                <img src="categoria1/sserafim.jpg" alt="LE SSERAFIM Lightstick" width="200">
+                <p>$98.00</p>
+                <button class="add-btn" data-id="8" data-name="LE SSERAFIM Lightstick" data-price="98.00">Añadir al carrito</button> 
+            </div>
+
+            <div class="product-card">
+                <h3>ZEROBASEONE Lightstick</h3>
+                <img src="categoria1/zerobaseone.webp" alt="ZEROBASEONE Lightstick" width="200">
+                <p>$100.00</p>
+                <button class="add-btn" data-id="9" data-name="ZEROBASEONE Lightstick" data-price="100.00">Añadir al carrito</button> 
+            </div>
+
+            <div class="product-card">
+                <h3>BTS<br>Lightstick</h3>
+                <img src="categoria1/bts.webp" alt="BTS Lightstick" width="200">
+                <p>$100.00</p>
+                <button class="add-btn" data-id="10" data-name="BTS Lightstick" data-price="100.00">Añadir al carrito</button> 
+            </div>
+
+            <div class="product-card">
+                <h3>BLACKPINK<br>Lightstick</h3>
+                <img src="categoria1/blackpink.webp" alt="BLACKPINK Lightstick" width="200">
+                <p>$90.00</p>
+                <button class="add-btn" data-id="11" data-name="BLACKPINK Lightstick" data-price="90.00">Añadir al carrito</button> 
+            </div>
+
+            <div class="product-card">
+                <h3>NCT<br>Lightstick</h3>
+                <img src="categoria1/nct.webp" alt="NCT Lightstick" width="200">
+                <p>$100.00</p>
+                <button class="add-btn" data-id="12" data-name="NCT Lightstick" data-price="100.00">Añadir al carrito</button> 
+            </div>
+
+            <div class="product-card">
+                <h3>BOY NEXTDOOR<br>Lightstick</h3>
+                <img src="categoria1/boynextdoor.webp" alt="BOY NEXTDOOR Lightstick" width="200">
+                <p>$94.00</p>
+                <button class="add-btn" data-id="13" data-name="BOY NEXTDOOR Lightstick" data-price="94.00">Añadir al carrito</button> 
+            </div>
+
+            <div class="product-card">
+                <h3>NMIXX<br>Lightstick</h3>
+                <img src="categoria1/nmixx.jpg" alt="NMIXX Lightstick" width="200">
+                <p>$100.00</p>
+                <button class="add-btn" data-id="14" data-name="NMIXX Lightstick" data-price="100.00">Añadir al carrito</button> 
+            </div>
+
+            <div class="product-card">
+                <h3>AESPA<br>Lightstick</h3>
+                <img src="categoria1/aespa.jpg" alt="AESPA Lightstick" width="200">
+                <p>$90.00</p>
+                <button class="add-btn" data-id="15" data-name="AESPA Lightstick" data-price="90.00">Añadir al carrito</button> 
+            </div>
+
+            <div class="product-card">
+                <h3>SHINee<br>Lightstick</h3>
+                <img src="categoria1/shinee.jpg" alt="SHINee Lightstick" width="200">
+                <p>$100.00</p>
+                <button class="add-btn" data-id="16" data-name="SHINee Lightstick" data-price="100.00">Añadir al carrito</button> 
+            </div>
+
+            <div class="product-card">
+                <h3>EXO<br>Lightstick</h3>
+                <img src="categoria1/exo.jpg" alt="EXO Lightstick" width="200">
+                <p>$105.00</p>
+                <button class="add-btn" data-id="17" data-name="EXO Lightstick" data-price="105.00">Añadir al carrito</button> 
+            </div>
+
+            <div class="product-card">
+                <h3>XIKERS<br>Lightstick</h3>
+                <img src="categoria1/xikers.png" alt="XIKERS Lightstick" width="200">
+                <p>$98.00</p>
+                <button class="add-btn" data-id="18" data-name="XIKERS Lightstick" data-price="98.00">Añadir al carrito</button> 
+            </div>
+
+            <div class="product-card">
+                <h3>ITZY<br>Lightstick</h3>
+                <img src="categoria1/itzy.jpg" alt="ITZY Lightstick" width="200">
+                <p>$100.00</p>
+                <button class="add-btn" data-id="19" data-name="ITZY Lightstick" data-price="100.00">Añadir al carrito</button> 
+            </div>
+
+            <div class="product-card">
+                <h3>NEW JEANS<br>Lightstick</h3>
+                <img src="categoria1/newjeans.png" alt="NEW JEANS Lightstick" width="200">
+                <p>$90.00</p>
+                <button class="add-btn" data-id="20" data-name="NEW JEANS Lightstick" data-price="90.00">Añadir al carrito</button> 
+            </div>
+
+            <div class="product-card">
+                <h3>TWICE<br>Lightstick</h3>
+                <img src="categoria1/twice.jpg" alt="TWICE Lightstick" width="200">
+                <p>$100.00</p>
+                <button class="add-btn" data-id="21" data-name="TWICE Lightstick" data-price="100.00">Añadir al carrito</button> 
+            </div>
+
+            <div class="product-card">
+                <h3>RIIZE<br>Lightstick</h3>
+                <img src="categoria1/riize.webp" alt="RIIZE Lightstick" width="200">
+                <p>$100.00</p>
+                <button class="add-btn" data-id="22" data-name="RIIZE Lightstick" data-price="100.00">Añadir al carrito</button> 
+            </div>
+
+            <div class="product-card">
+                <h3>CRAVITY<br>Lightstick</h3>
+                <img src="categoria1/cravity.webp" alt="CRAVITY Lightstick" width="200">
+                <p>$100.00</p>
+                <button class="add-btn" data-id="23" data-name="CRAVITY Lightstick" data-price="100.00">Añadir al carrito</button> 
+            </div>
+
+            <div class="product-card">
+                <h3>GOT7<br>Lightstick</h3>
+                <img src="categoria1/got7.webp" alt="GOT7 Lightstick" width="200">
+                <p>$100.00</p>
+                <button class="add-btn" data-id="24" data-name="GOT7 Lightstick" data-price="100.00">Añadir al carrito</button> 
+            </div>
+
+            <div class="product-card">
+                <h3>XDINARY HEROES<br>Lightstick</h3>
+                <img src="categoria1/xdinary.png" alt="XDINARY HEROES Lightstick" width="200">
+                <p>$100.00</p>
+                <button class="add-btn" data-id="25" data-name="XDINARY HEROES Lightstick" data-price="100.00">Añadir al carrito</button> 
+            </div>
+
+        </section>
+
+        <!-- SECCIÓN DEL CARRITO -->
+        <section class="cart-container">
+            <h2>Tu carrito</h2>
+            <ul id="cart-items"></ul>
+            <div class="total-section">
+                <strong>Total: $<span id="total-price">0</span></strong>
+                <button id="clear-cart">Vaciar carrito</button>
+            </div>
+        </section>
+
+    </main>
+</body>
+
+ <!-- PIE DE PÁGINA -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Enhypen | Company</h3>
+                <p>⭐ Tu tienda de confinza para conseguir artículos de tus artistas favoritos ⭐</p>
+            </div>
+
+            <div class="footer-column">
+                <h3>Navegación</h3>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="categoria.html">LightSticks</a></li>
+                    <li><a href="categoria2.html">Álbumes</a></li>
+                    <li><a href="categoria3.html">Peluches</a></li>
+                    <li><a href="contacto.html">Contacto y Servicios</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Comunidad</h3>
+                <p>Mantente al tanto de los próximos *comebacks* y preventas exclusivas en nuestras redes oficiales.</p>
+                <div class="social-links">
+                    <a href="#">✨ Instagram</a>
+                    <a href="#">🎵 TikTok</a>
+                    <a href="#">🐦 Twitter (X)</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Made by Delia - Mi Tienda Pro © 2026. Todos los derechos reservados a sus respectivos sellos discográficos.</p>
+        </div>
+            
+    </footer>
+
+    <script src="funciones.js"></script>
+</body>
+</html>

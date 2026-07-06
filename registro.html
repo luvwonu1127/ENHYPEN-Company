@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de usuarios</title>
+    <link rel="stylesheet" href="estilos/sesion.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    </head> 
+
+    <header>
+        <div class="encabezado-bar">
+            <div class="logo-company">
+                <img src="menu/logo7.png" class="company-logo" alt="Logo de la Empresa">
+                <h1 class="company-title">Enhypen | Company</h1>
+            </div>
+
+            <div class="carrito">
+                <div class="cart-icon-box">
+                    🛒 <span id="cart-count">0</span>
+                </div>
+                <div class="profile-user">
+                    <a href="login.html">
+                            <img src="menu/profile.jpg" class="avatar-img" alt="Profile icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <nav class="nav-menu-box">
+            <input type="checkbox" id="menu-trigger">
+            <label for="menu-trigger" class="hamburger-menu">☰ MENÚ</label>
+
+            <ul class="nav-links-list">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="categoria.html">Lightsticks</a></li>
+                <li><a href="categoria2.html">Álbumes</a></li>
+                <li><a href="categoria3.html">Peluches</a></li>
+                <li><a href="contacto.html">Contacto y Servicio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+     <body>
+        
+        <div class="contenedor-registro">
+            <div class="tarjeta-registro">
+                 <h1>Crear cuenta</h1>
+            <input type="text" id="nuevoUsuario"
+            placeholder="Nombre de usuario" required>
+            <input type="password" id="nuevaClave"
+            placeholder="Contraseña" required>
+
+            <button type="button"
+            onclick="registrar()">Registrar</button>
+    
+            <p>¿Ya tienes una cuenta?<a 
+                href="login.html">Iniciar sesión</a></p>
+            </div>
+        </div>
+
+       <!-- PIE DE PÁGINA -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Enhypen | Company</h3>
+                <p>⭐ Tu tienda de confinza para conseguir artículos de tus artistas favoritos ⭐</p>
+            </div>
+
+            <div class="footer-column">
+                <h3>Navegación</h3>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="categoria.html">LightSticks</a></li>
+                    <li><a href="categoria2.html">Álbumes</a></li>
+                    <li><a href="categoria3.html">Peluches</a></li>
+                    <li><a href="contacto.html">Contacto y Servicios</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Comunidad</h3>
+                <p>Mantente al tanto de los próximos *comebacks* y preventas exclusivas en nuestras redes oficiales.</p>
+                <div class="social-links">
+                    <a href="#">✨ Instagram</a>
+                    <a href="#">🎵 TikTok</a>
+                    <a href="#">🐦 Twitter (X)</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Made by Delia - Mi Tienda Pro © 2026. Todos los derechos reservados a sus respectivos sellos discográficos.</p>
+        </div>
+            
+    </footer>
+
+    <script src="funciones.js"></script> 
+
+    </body>        
+</html>
